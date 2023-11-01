@@ -432,8 +432,11 @@ body{
 }
 .services-container .icon-s{
     position: absolute;
-    margin-left: -1.8%;
+    margin-left: -1.75%;
     margin-top: -2%;
+}
+.services-container .icon-s i{
+    font-size: 28px;
 }
 
 /* ----testimonial-section----st to end---- */
@@ -800,7 +803,7 @@ body{
         margin-top: 25px;
     }
 }
-@media (max-width: 1050px){
+@media (max-width: 1070px){
     .main-text{
         max-width: 35%;
         flex: 0 0 35%;
@@ -811,7 +814,7 @@ body{
         margin-top: 10%;
     }
 }
-@media (max-width: 950px){
+@media (max-width: 970px){
     .main-pic{
         max-width: 100%;
         flex: 0 0 100%;
@@ -847,6 +850,9 @@ body{
     .marketing-1{
         max-width: 60%;
         margin-left: 22%;
+    }
+    .features-area .marketing-1 {
+        padding-top: 30px;
     }
 
 }
@@ -916,16 +922,18 @@ body{
         flex: 0 0 120%;
     }
     .services-thing-1{
-        margin-top: 25px; 
+        margin-top: 25px;
     }
     .services-thing-2, .services-thing-3{
         margin-top: 25px;
+        margin-left: 2%;
     }
     .services-area h1{
         font-size: 37px;
     }
+    
 }
-  @media (max-width: 575px){
+  @media (max-width: 620px){
     .testimonial-area .testimonial-text{
         font-size: 1px;
     }
@@ -951,4 +959,51 @@ body{
         height: 20vh;
         flex-wrap: wrap;
     }
-  }
+    .main-text{
+        margin-left: 10%;
+    }
+    .main-text a{
+        font-size: 12px;
+    }
+    .features-area .marketing-1 p{
+        max-width: 130%;
+        width: 130%;
+    }
+    .marketing-1 h2{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-left: 20%;
+    }
+    .about-pic img{
+        height: 50vh;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+    .about-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-area li{
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .about-area .about-text{
+        width: 100%;
+        margin-left: 10%;
+        flex-basis: 100%;
+    }
+    .about-area .about-text h2{
+        margin-left: 50%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .about-area .about-text b{
+        margin-left: -14%;
+    }
+    .services-container  .grid{
+        display: block;
+    }
+    .services-container-1 .services-container-2 .services-container-3{
+       margin: 20px;
+    }
+}
